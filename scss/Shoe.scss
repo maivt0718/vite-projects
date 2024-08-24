@@ -1,0 +1,55 @@
+.shoe {
+  * {
+    color: black;
+  }
+  margin: 50px 0;
+  .common {
+    border: 2px solid rgb(30, 168, 176);
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    .shoe_row {
+      align-content: center;
+      .shoe_nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px
+        
+      }
+      .shoe_content {
+        padding: 20px;
+        .shoeList{
+          padding: 10px;
+          text-align: center;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          cursor: pointer;
+          button{
+            border-radius: 10px;
+            background-color: red;
+            width: 200px;
+          }
+        }
+      }
+    }
+  }
+}
+
+#exampleModal{
+  .modal-body{
+    .detail,tbody,td{
+      border: 1px solid black;
+      padding: 10px;
+    }
+    td{
+      &:first-child{
+        font-weight: bold;
+        text-transform: capitalize;
+      }
+    }
+  }
+}

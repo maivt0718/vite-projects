@@ -1,0 +1,33 @@
+.header_container{
+    background-color: black;
+    border: 2px solid yellow;
+    color: aliceblue;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+.header_container title{
+}
+
+.nav_items{
+    list-style: none;
+}
+
+.nav_items .active{
+    color: aliceblue;
+}
+
+.nav_items li{
+    display: inline;
+    margin-right: 20px;
+    color: gray;
+}
+
+.nav_items a{
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.nav_items li:hover{
+    color: aliceblue;
+}

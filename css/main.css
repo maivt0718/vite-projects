@@ -1,0 +1,65 @@
+@import url("./scss/section1.scss");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  color: aliceblue;
+}
+
+.container {
+  margin: auto;
+  padding: auto;
+}
+
+.glasses {
+  background-image: url("public/imgs/glassesImage/background.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.glasses .glasses_header {
+  position: absolute;
+  background-color: rgba(90, 85, 85, 0.544);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  min-height: 100px;
+  width: 100%;
+  z-index: 2;
+  text-align: center;
+  font-size: 50px;
+}
+.glasses .glasses_header .container {
+  padding: 20px;
+}
+.glasses .glasses_header .container h1 {
+  color: red;
+}
+.glasses .glasses_body .container .potrait {
+  min-height: 100vh;
+  padding-top: 200px;
+}
+.glasses .glasses_body .container .potrait .face img {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.glasses .glasses_body .container .potrait .glass {
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 250px;
+  left: 488px;
+}
+.glasses .glasses_body .container .potrait .glass img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.glasses .glasses_body .container .glasess_list {
+  justify-content: center;
+}
+.glasses .glasses_body .container .glasess_list img {
+  width: 50px;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */

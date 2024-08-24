@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Ponny";
+  src: url("../src/assets/font/Pony.ttf");
+}
+
+.dice {
+  font-family: "Ponny";
+  color: black;
+  font-size: 50px;
+  background-image: url("../public/Dice/bgGame.png");
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .dice_items {
+    gap: 150px;
+  }
+  button {
+    font-size: 20px;
+  }
+}

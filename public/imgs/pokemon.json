@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "description": "Pikachu, an Electric-type Pokémon known for its yellow fur and ability to generate electricity.",
+      "url": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png"
+    },
+    {
+      "id": 2,
+      "description": "Charizard, a Fire/Flying-type Pokémon that resembles a dragon and can breathe fire.",
+      "url": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png"
+    },
+    {
+      "id": 3,
+      "description": "Bulbasaur, a Grass/Poison-type Pokémon that has a plant bulb on its back which grows into a large plant.",
+      "url": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"
+    },
+    {
+      "id": 4,
+      "description": "Squirtle, a Water-type Pokémon resembling a small turtle, known for its powerful water attacks.",
+      "url": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png"
+    },
+    {
+      "id": 5,
+      "description": "Jigglypuff, a Normal/Fairy-type Pokémon known for its singing ability that can put others to sleep.",
+      "url": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png"
+    },
+    {
+      "id": 6,
+      "description": "Eevee, a Normal-type Pokémon with the unique ability to evolve into various forms depending on the conditions.",
+      "url": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png"
+    },
+    {
+      "id": 7,
+      "description": "Snorlax, a Normal-type Pokémon known for its large size and constant sleeping habits.",
+      "url": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png"
+    },
+    {
+      "id": 8,
+      "description": "Mewtwo, a Psychic-type legendary Pokémon created through genetic manipulation.",
+      "url": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png"
+    },
+    {
+      "id": 9,
+      "description": "Gengar, a Ghost/Poison-type Pokémon known for its mischievous nature and ability to phase through objects.",
+      "url": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png"
+    },
+    {
+      "id": 10,
+      "description": "Lucario, a Fighting/Steel-type Pokémon known for its aura-sensing abilities and strong combat skills.",
+      "url": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/448.png"
+    }
+  ]
+  

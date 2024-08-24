@@ -1,0 +1,60 @@
+.body_container {
+    border: 2px solid red;
+    .container {
+      margin: 15px auto;
+      .banner {
+        padding: 50px 200px;
+        border: 2px solid blue;
+  
+        h1 {
+          font-size: 50px;
+          color: black;
+        }
+        p {
+          color: gray;
+          margin-bottom: 20px;
+        }
+        button {
+          background-color: rgb(64, 157, 219);
+          padding: 8px;
+          border-radius: 10px;
+        }
+      }
+      .items {
+        margin-top: 10px;
+        color: black;
+        .card {
+          border: 2px solid purple;
+          overflow: hidden;
+          .card-img-top {
+            height: 200px;
+            text-align: center;
+            padding-top: 100px;
+          }
+          .card-body {
+            color: black;
+            text-align: center;
+            h5 {
+              margin: 5px auto;
+            }
+            p {
+              margin: 5px;
+            }
+            a {
+              border-radius: 20px;
+              line-height: 50px;
+              padding: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  .footer_container {
+    background-color: black;
+    border: 2px solid blue;
+    text-transform: capitalize;
+    padding: 10px;
+    text-align: center;
+  }

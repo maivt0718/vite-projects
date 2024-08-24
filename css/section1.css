@@ -1,0 +1,59 @@
+.body_container {
+  border: 2px solid red;
+}
+.body_container .container {
+  margin: 15px auto;
+}
+.body_container .container .banner {
+  padding: 50px 200px;
+  border: 2px solid blue;
+}
+.body_container .container .banner h1 {
+  font-size: 50px;
+  color: black;
+}
+.body_container .container .banner p {
+  color: gray;
+  margin-bottom: 20px;
+}
+.body_container .container .banner button {
+  background-color: rgb(64, 157, 219);
+  padding: 8px;
+  border-radius: 10px;
+}
+.body_container .container .items {
+  margin-top: 10px;
+  color: black;
+}
+.body_container .container .items .card {
+  border: 2px solid purple;
+  overflow: hidden;
+}
+.body_container .container .items .card .card-img-top {
+  height: 200px;
+  text-align: center;
+  padding-top: 100px;
+}
+.body_container .container .items .card .card-body {
+  color: black;
+  text-align: center;
+}
+.body_container .container .items .card .card-body h5 {
+  margin: 5px auto;
+}
+.body_container .container .items .card .card-body p {
+  margin: 5px;
+}
+.body_container .container .items .card .card-body a {
+  border-radius: 20px;
+  line-height: 50px;
+  padding: 10px;
+}
+
+.footer_container {
+  background-color: black;
+  border: 2px solid blue;
+  text-transform: capitalize;
+  padding: 10px;
+  text-align: center;
+}/*# sourceMappingURL=section1.css.map */
