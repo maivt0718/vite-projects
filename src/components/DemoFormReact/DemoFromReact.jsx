@@ -6,6 +6,8 @@ import ButtonCustom from "./ButtonCustom";
 import EmployeeTable from "./EmployeeTable";
 import * as yup from "yup";
 import { NotificationContext } from "../../App";
+import dayjs from "dayjs";
+
 
 function DemoFromReact() {
   const [arrEmployee, setarrEmployee] = useState([]);
@@ -26,7 +28,7 @@ function DemoFromReact() {
       phone: "",
       name: "",
       password: "",
-      dob: "",
+      dob: null,
       gender: "",
     },
     onSubmit: (values, { resetForm }) => {
@@ -81,21 +83,12 @@ function DemoFromReact() {
     const employee = arrEmployee.find((item, index) => {
       return item.identification == id;
     });
-    // let arrFields = $("#form input,select")
-    // for (const element of arrFields) {
-    //   let {id} = element
-    //   element.value = employee[id]
-    // }
-    setValues(employee)
-      .then((res) => {
-        console.log(values);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+    setValues(employee);
   };
 
-  const updateEmployee = (values) => {};
+  const updateEmployee = () => {
+    console.log(values)
+  };
 
   return (
     <div>
@@ -162,6 +155,7 @@ function DemoFromReact() {
               onChange={(date, dateString) => {
                 setFieldValue("dob", dateString);
               }}
+              value={values.dob ? dayjs(values.dob, "DD-MM-YYYY") : null}
               id="datepicker"
               name="datepicker"
             />
@@ -206,7 +200,7 @@ function DemoFromReact() {
         <div className="space-x-5 text-center">
           <ButtonCustom content={"Add new employee"} type="submit" />
           <ButtonCustom content={"Reset"} bgColor="bg-black" />
-          <ButtonCustom content={"Update"} bgColor="bg-green-500" />
+          <ButtonCustom content={"Update"} onClick={updateEmployee} bgColor="bg-green-500" />
         </div>
       </form>
       <EmployeeTable
